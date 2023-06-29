@@ -1,4 +1,8 @@
-
+.reset-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .grid-row{
     display: flex;

@@ -1,5 +1,6 @@
 let gridSize=10
 const container = document.querySelector('.container');
+const resetButton = document.querySelector('button');
 
 const createGrid = (dimensions) => {
 for ( let i=0; i < dimensions; i++){
@@ -17,4 +18,12 @@ for ( let i=0; i < dimensions; i++){
     }
     
 }
-createGrid(gridSize)
+resetButton.addEventListener('click', () => {
+    let userSize = userSize = Number(prompt('what dimensions do you want for the grid'))
+    while (userSize > 100){
+        userSize = Number(prompt('pick number under 100'))
+       
+    }
+    createGrid(userSize)
+}
+)
