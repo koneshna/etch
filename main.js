@@ -12,7 +12,7 @@ for ( let i=0; i < dimensions; i++){
             gridBox.classList.add('grid-box')
             row.appendChild(gridBox)
             gridBox.addEventListener('mouseenter', ()=>
-            {gridBox.style.backgroundColor = 'white'})
+            {gridBox.style.backgroundColor = 'black'})
         }
         container.appendChild(row)
     }
