@@ -1,3 +1,6 @@
+.container{
+    width: 960px;
+}
 .reset-page{
     display: flex;
     align-items: center;
