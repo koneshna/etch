@@ -1,4 +1,4 @@
-let gridSize=4
+let gridSize=10
 const container = document.querySelector('.container');
 const resetButton = document.querySelector('button');
 
@@ -14,7 +14,7 @@ const createGrid = (dimensions) => {
             gridBox.style.width = `${widthAndHeight}px`
             gridBox.style.height = `${widthAndHeight}px`
             gridBox.addEventListener('mouseenter', ()=>{
-                gridBox.style.backgroundColor = 'white'
+                gridBox.style.backgroundColor = 'grey'
             })
             row.appendChild(gridBox)
         }
